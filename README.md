@@ -1,14 +1,11 @@
-# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
-
-These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
-[my YouTube channel](https://youtube.com/c/lukesmithxyz).
+# My fork of Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
 
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
 	- vim/nvim (text editor)
 	- zsh (shell)
-	- lf (file manager)
-	- mpd/ncmpcpp (music)
+	- nnn (file manager)
+	- cmus (music)
 	- sxiv (image/gif viewer)
 	- mpv (video player)
 	- other stuff like xdg default programs, inputrc and more, etc.
@@ -33,13 +30,7 @@ works with this setup. It gives you an easy-to-install terminal-based email
 client regardless of your email provider. It is integrated into these dotfiles
 as well.
 
-## Install these dotfiles and all dependencies
-
-Use [LARBS](https://larbs.xyz) to autoinstall everything:
-
-```
-curl -LO larbs.xyz/larbs.sh
-```
-
-or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/LukeSmithxyz/LARBS/blob/master/progs.csv).
+## Differences
+- mpd and ncmpcpp (music daemon & player) changed on cmus (daemonless player)
+- lf changed on nnn (fast C* teminal file manager)
+- minor tweaks
